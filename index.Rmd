@@ -33,15 +33,6 @@ census_violent$vcrate <- (census_violent$violent_crime/census_violent$total_pop)
 head(census_violent)
 ```
 
-```{r}
-tableFreq = head(census_violent)
-
-```
-
-
-```{r}
-hist(census_violent$vcrate,labels = T)
-```
 
 ### Original Plot
 
