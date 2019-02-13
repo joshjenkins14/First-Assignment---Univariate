@@ -1,4 +1,18 @@
 
+<br> 
+<center><img src="http://i.imgur.com/sSaOozN.png" width="500"></center>
+
+
+## Course: Visual Analytics for Policy and Management
+
+### Maria Zepeda Flores, Quinn Ziegler, and Joshua Jenkins 
+
+_____
+<a id='part1'></a>
+
+# Univariate
+### First Assignment 
+
 ```{r}
 data_link = "https://github.com/qziegler/Visual-Analytics-Project/raw/master/data/dc_crime_tract_demo.csv"
 crimedf <- read.csv(data_link)
@@ -26,11 +40,15 @@ tableFreq = head(census_violent)
 
 
 ```{r}
-census_violent[complete.cases(census_violent$vcrate),]
 hist(census_violent$vcrate,labels = T)
 ```
 
+### Original Plot
 
+<br> 
+<center><img src="https://i.imgur.com/JXObpmR.png" width="500"></center>
+
+### Box Plot - Final Plot
 
 
 ```{r}
