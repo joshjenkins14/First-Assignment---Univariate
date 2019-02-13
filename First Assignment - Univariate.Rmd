@@ -1,3 +1,15 @@
+<br> 
+<center><img src="https://i.imgur.com/JXObpmR.png" width="500"></center>
+
+## Visual Analytics Homework 1
+### Univariate Case
+
+### Produced by Quinn Ziegler
+
+
+
+
+
 
 ```{r}
 data_link = "https://github.com/qziegler/Visual-Analytics-Project/raw/master/data/dc_crime_tract_demo.csv"
